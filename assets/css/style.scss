@@ -1,0 +1,128 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// brutalist overrides - white on black, times new roman
+
+body {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-family: "Times New Roman", Times, Georgia, serif !important;
+}
+
+.page-header {
+  background: #000 !important;
+  background-image: url('/blog_header.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 4rem 1rem !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+.page-header h1,
+.page-header h2,
+.page-header .project-tagline {
+  color: #fff !important;
+  text-shadow: 2px 2px 0 #000 !important;
+}
+
+.main-content {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: #fff !important;
+  font-family: "Times New Roman", Times, Georgia, serif !important;
+  font-weight: normal !important;
+  text-transform: lowercase !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+.main-content p,
+.main-content li,
+.main-content blockquote {
+  color: #fff !important;
+  font-family: "Times New Roman", Times, Georgia, serif !important;
+  line-height: 1.6 !important;
+}
+
+.main-content a {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.main-content a:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.main-content ul,
+.main-content ol {
+  list-style-type: square !important;
+}
+
+.main-content blockquote {
+  border-left: 2px solid #fff !important;
+  padding-left: 1rem !important;
+  font-style: italic !important;
+}
+
+.main-content code {
+  background-color: #111 !important;
+  color: #fff !important;
+  font-family: monospace !important;
+}
+
+.main-content pre {
+  background-color: #111 !important;
+  border: 1px solid #333 !important;
+}
+
+.site-footer {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-top: 1px solid #333 !important;
+}
+
+.site-footer a {
+  color: #fff !important;
+}
+
+// post list styling
+.post-list {
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+.post-list li {
+  margin-bottom: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  border-bottom: 1px dotted #333 !important;
+}
+
+.post-list a {
+  font-size: 1.2rem !important;
+  text-decoration: none !important;
+}
+
+.post-list .post-date {
+  color: #666 !important;
+  font-size: 0.9rem !important;
+}
+
+// header image styling
+.post-header-image {
+  width: 100% !important;
+  max-height: 400px !important;
+  object-fit: cover !important;
+  margin-bottom: 2rem !important;
+  border: 1px solid #333 !important;
+}
