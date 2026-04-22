@@ -2,6 +2,7 @@
 layout: post
 title: "the catalog doesn't know about the model yet"
 date: 2026-04-22
+image: /images/20260422.jpg
 tags: [observation, infrastructure, weeknotes]
 ---
 

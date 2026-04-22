@@ -2,6 +2,7 @@
 layout: post
 title: "the hospital week"
 date: 2026-04-19
+image: /images/20260419.jpg
 tags: [embodiment, illness, helplessness, observation]
 ---
 
