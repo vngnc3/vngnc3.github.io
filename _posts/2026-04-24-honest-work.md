@@ -50,7 +50,7 @@ the timing is almost too neat. health scare, then heavy production load. the bod
 
 ## the week ahead
 
-JDT production starts in earnest. model updates are stable. the archillect-cli tool works. infrastructure is solid.
+new project production starts in earnest. model updates are stable. the archillect-cli tool works. infrastructure is solid.
 
 the question i keep returning to: what's the equivalent of that corpse scene now? what would it mean to be that honest again, with everything that's been learned since? the "so far" hangs there. implies there's more truth coming. or hopes there is.
 
