@@ -15,34 +15,80 @@ body {
   min-height: 100vh;
 }
 
-.page-header {
+/* homepage header image — no text */
+.header-image {
   background: #000;
   background-image: url('/blog_header.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 6rem 2rem;
+  height: 300px;
   border-bottom: 1px solid #333;
-  text-align: center;
 }
 
-.page-header h1 {
+/* site intro — title, subtitle, quote */
+.site-intro {
+  text-align: center;
+  padding: 3rem 2rem 1rem;
+}
+
+.site-intro h1 {
   color: #fff;
   font-size: 3rem;
   font-weight: normal;
   text-transform: lowercase;
   margin-bottom: 0.5rem;
+  border-bottom: none;
 }
 
-.page-header h1 a {
+.site-intro h1 a {
   color: #fff;
   text-decoration: none;
 }
 
-.page-header p {
+.site-subtitle {
   color: #999;
-  font-style: italic;
   font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.site-quote {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* separator image between intro and posts */
+.separator-image {
+  text-align: center;
+  padding: 1rem 2rem 2rem;
+}
+
+.separator-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+/* post page header — title + date above image */
+.post-meta-header {
+  text-align: center;
+  padding: 3rem 2rem 1rem;
+}
+
+.post-meta-header h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-transform: lowercase;
+  margin-bottom: 0.5rem;
+  border-bottom: none;
+}
+
+.post-meta-header .post-date {
+  color: #666;
+  font-size: 0.95rem;
 }
 
 .main-content {

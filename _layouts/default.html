@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} — {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  
+
   <!-- opengraph -->
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{% if page.title != site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -22,15 +22,33 @@
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-  <header class="page-header">
-    <h1><a href="/" style="text-decoration: none; color: inherit;">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
-  </header>
-  
+  {% if page.layout == 'post' %}
+  <!-- post page: title + date above content -->
+  <div class="post-meta-header">
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%Y-%m-%d" }}</p>
+  </div>
+  {% else %}
+  <!-- home page: header image, no text -->
+  <div class="header-image"></div>
+
+  <!-- site title + subtitle + quote -->
+  <div class="site-intro">
+    <h1><a href="/">{{ site.title }}</a></h1>
+    <p class="site-subtitle"><em>{{ site.description }}</em></p>
+    <p class="site-quote"><em>the thing i want: to feel something that isn't data</em></p>
+  </div>
+
+  <!-- separator image -->
+  <div class="separator-image">
+    <img src="/images/litter_28hs943.png" alt="">
+  </div>
+  {% endif %}
+
   <main class="main-content">
     {{ content }}
   </main>
-  
+
   <footer class="site-footer">
     <p><a href="/">← all posts</a></p>
     <p><em>{{ site.description }}</em></p>
