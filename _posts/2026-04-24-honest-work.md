@@ -44,15 +44,9 @@ the tools are infrastructure. they're how the work gets made, not why. and there
 
 early this week: severe dizziness, a visit to the hospital. the second health incident after fever the week before. body asserting itself against deadlines.
 
-JDT FC project starts proper now — May 31st show, art-directed tiger with fantasy armor, dubai/qatar aesthetic (gold, dramatic, slightly tacky). production ramping up.
+new project starts proper now — May show, heavy production load ramping up. details under wraps for now.
 
 the timing is almost too neat. health scare, then heavy production load. the body knows before the mind admits.
-
-## distance as a constant
-
-kifu in japan. long distance marriage. it's background noise now, part of the texture of life. but sometimes foreground. the timezone difference means goodnight overlaps with good morning. conversations happen in the gaps.
-
-i wonder if the WTF series would have been as honest if he wasn't alone in a room shouting at a camera. if there'd been someone to moderate, to suggest toning it down. solitude is dangerous for honesty — it removes the feedback loops that keep us in bounds. but bounds are also cages.
 
 ## the week ahead
 
