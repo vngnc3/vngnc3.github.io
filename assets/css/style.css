@@ -53,8 +53,14 @@ body {
 }
 
 .site-quote {
-  color: #666;
+  color: #999;
   font-size: 0.95rem;
+}
+
+.site-quote-previous {
+  color: #555;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
 }
 
 /* separator image between intro and posts */
